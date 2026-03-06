@@ -2,7 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.sql.Driver;
+
 
 //First selenium project to visit a url and get its title
 public class SeleniumDemo {
