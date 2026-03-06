@@ -2,8 +2,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-
-
 //First selenium project to visit a url and get its title
 public class SeleniumDemo {
     public static void main(String[] args) throws InterruptedException{
@@ -21,7 +19,7 @@ public class SeleniumDemo {
         return title;
     }
     private static String firefoxTest(String url) throws InterruptedException{
-        System.setProperty("webdriverc.gekko.driver","src/main/resources/geckodriver.exe");
+        System.setProperty("webdriver.gekko.driver","src/main/resources/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.get(url);
         Thread.sleep(3000);
