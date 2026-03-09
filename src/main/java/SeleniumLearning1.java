@@ -3,7 +3,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 //First selenium project to visit a url and get its title
-public class SeleniumDemo {
+public class SeleniumLearning1 {
     public static void main(String[] args) throws InterruptedException{
         String chromeTitle= chromeTest("https://www.amazon.in/");
         String firefoxTitle= firefoxTest("https://www.flipkart.in/");
