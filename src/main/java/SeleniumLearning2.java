@@ -52,7 +52,7 @@ public class SeleniumLearning2 {
         WebElement inputByTagName=driver.findElement(By.tagName("input"));
         WebElement inputByClassName=driver.findElement(By.className("input-field"));
         WebElement inputByXpath=driver.findElement(By.xpath("//input[@class='input-field']"));
-        WebElement inputByCss=driver.findElement(By.cssSelector("input.input-field"));
+        WebElement inputByCss=driver.findElement(By.cssSelector("input.input-field")); //in CssSelector we can use'.' for class
 
         // Create a list of WebElements for all buttons using tag
         List<WebElement> buttons=driver.findElements(By.tagName("button"));
@@ -60,7 +60,7 @@ public class SeleniumLearning2 {
         // Identify both buttons, using ID, name, CSS, XPath for each
         WebElement button1Id=driver.findElement(By.id("edit_btn"));
         WebElement button1Name=driver.findElement(By.name("Edit"));
-        WebElement button1Css=driver.findElement(By.cssSelector("button#edit_btn"));
+        WebElement button1Css=driver.findElement(By.cssSelector("button#edit_btn")); //in CssSelector we can use '#' for id
         WebElement button1Xpath=driver.findElement(By.xpath("//button[@name='Edit']"));
 
         WebElement button2Id=driver.findElement(By.id("add_btn"));
