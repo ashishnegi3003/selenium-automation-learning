@@ -1,4 +1,4 @@
-# SeleniumDemo (Beginner Selenium Project)
+# Selenium-automation-learning (Beginner Selenium Project)
 
 My journey into Selenium automation with Java.
 This repo contains small practice programs for cross-browser navigation and locator exploration, printing page titles, and validating elements along the way.
