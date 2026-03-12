@@ -12,7 +12,7 @@ This repo contains small practice programs for cross-browser navigation and loca
 - Launches **Firefox**, visits `https://www.flipkart.in/`, waits ~3 seconds, captures the page title, and quits
 - Prints both titles to the console
 
-**Key methods**
+**Key method**
 - `chromeTest(url)` → `ChromeDriver` → `getTitle()` → `quit()`
 - `firefoxTest(url)` → `FirefoxDriver` → `getTitle()` → `quit()`
 
@@ -34,6 +34,15 @@ This second learning program opens a practice login page and finds elements usin
 - `main()` calls both findLoginPageElements(driver) and findExceptionPageElements(driver) functions
 - Uses `main()` to collect all `input`
 
+### Program 3: Login Automation (`SeleniumLearning3`)
+
+- **Key method**: LoginPracticePage(driver)
+    - Launches Chrome and opens url `https://practicetestautomation.com/practice-test-login/` and finds elements using:
+    - Enters username **student** and password **Password123**
+    - Clicks the **Submit** button and waits ~3 seconds so you can observe the result 
+    - Quits the browser
+    - Additional comments for some useful commands
+
 ## Course followed:
 Udemy - [Master Selenium WebDriver with Java for Beginners | Complete Guide to Automation Testing](https://www.udemy.com/course/selenium-for-beginners/) by Dmitry Shyshkin
 
@@ -48,4 +57,3 @@ Udemy - [Master Selenium WebDriver with Java for Beginners | Complete Guide to A
 - Maven setup
 - Selenium dependency added to your project in `pom.xml`
 - Driver setup
-
