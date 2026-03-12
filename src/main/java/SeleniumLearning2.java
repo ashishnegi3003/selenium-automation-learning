@@ -77,4 +77,7 @@ Key Notes-
 3. Use Xpath with caution - due to its complexity and potential to slow down the test
 4. Avoid LinkText, PartialLinkText and Tag Name - unless they are the only options available
 5. Keep locators simple and specific for best
+6. Verify locators on dev console- Use $x for xpath and $$ for cssSelector. Example-
+    a.$x("//button[@id='submit']")
+    b.$$("input[type='password']")
 */
