@@ -19,7 +19,7 @@ public class SeleniumLearning1 {
         return title;
     }
     private static String firefoxTest(String url) throws InterruptedException{
-        System.setProperty("webdriverc.gekko.driver","skrc/main/resources/geckodriver.exe");
+        System.setProperty("webdriverc.gekko.driver","src/main/resources/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.get(url);
         Thread.sleep(3000);
